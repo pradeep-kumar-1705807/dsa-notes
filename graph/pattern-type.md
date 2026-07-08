@@ -34,18 +34,16 @@ Time: O(V + E)    Space: O(V) for queue
 - Applications: Shortest path (unweighted), level-order problems
 
 **Practice Questions:**
-| # | Problem | Difficulty | Key Concept |
-|---|---------|-----------|-------------|
-| 1 | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | DFS/BFS on grid |
-| 2 | [133. Clone Graph](https://leetcode.com/problems/clone-graph/) | Medium | Graph traversal + cloning |
-| 3 | [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | Medium | DFS on grid |
-| 4 | [542. 01 Matrix](https://leetcode.com/problems/01-matrix/) | Medium | Multi-source BFS |
-| 5 | [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | Medium | DFS from boundaries |
-| 6 | [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | Medium | DFS from oceans |
-| 7 | [1020. Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/) | Medium | DFS from boundary |
-| 8 | [1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | Medium | BFS shortest path |
-| 9 | [286. Walls and Gates](https://leetcode.com/problems/walls-and-gates/) | Medium | Multi-source BFS |
-| 10 | [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | Medium | DFS reachability |
+- [Done] [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) — Medium — DFS/BFS on grid
+- [ ] [133. Clone Graph](https://leetcode.com/problems/clone-graph/) — Medium — Graph traversal + cloning
+- [Done] [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/) — Medium — DFS on grid
+- [ ] [542. 01 Matrix](https://leetcode.com/problems/01-matrix/) — Medium — Multi-source BFS
+- [ ] [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) — Medium — DFS from boundaries
+- [ ] [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) — Medium — DFS from oceans
+- [ ] [1020. Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/) — Medium — DFS from boundary
+- [ ] [1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) — Medium — BFS shortest path
+- [ ] [286. Walls and Gates](https://leetcode.com/problems/walls-and-gates/) — Medium — Multi-source BFS
+- [ ] [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) — Medium — DFS reachability
 
 ---
 
@@ -82,18 +80,16 @@ Time: O(V + E)    Space: O(V) for queue
   - Good for dense graphs
 
 **Practice Questions:**
-| # | Problem | Difficulty | Algorithm |
-|---|---------|-----------|-----------|
-| 11 | [743. Network Delay Time](https://leetcode.com/problems/network-delay-time/) | Medium | Dijkstra's |
-| 12 | [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | Medium | Bellman-Ford / Modified Dijkstra |
-| 13 | [1514. Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/) | Medium | Modified Dijkstra |
-| 14 | [1631. Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/) | Medium | Dijkstra's (modified cost) |
-| 15 | [1976. Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/) | Medium | Dijkstra's + counting |
-| 16 | [1334. Find the City With the Smallest Number of Neighbors](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium | Floyd-Warshall / Dijkstra |
-| 17 | [2642. Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator/) | Hard | Dijkstra's (design) |
-| 18 | [3123. Find Edges in Shortest Paths](https://leetcode.com/problems/find-edges-in-shortest-paths/) | Medium | Dijkstra's from both ends |
-| 19 | [1293. Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) | Hard | BFS with state |
-| 20 | [2290. Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/) | Hard | 0-1 BFS / Dijkstra |
+- [ ] [743. Network Delay Time](https://leetcode.com/problems/network-delay-time/) — Medium — Dijkstra's
+- [ ] [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) — Medium — Bellman-Ford / Modified Dijkstra
+- [ ] [1514. Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/) — Medium — Modified Dijkstra
+- [ ] [1631. Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/) — Medium — Dijkstra's (modified cost)
+- [ ] [1976. Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/) — Medium — Dijkstra's + counting
+- [ ] [1334. Find the City With the Smallest Number of Neighbors](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) — Medium — Floyd-Warshall / Dijkstra
+- [ ] [2642. Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator/) — Hard — Dijkstra's (design)
+- [ ] [3123. Find Edges in Shortest Paths](https://leetcode.com/problems/find-edges-in-shortest-paths/) — Medium — Dijkstra's from both ends
+- [ ] [1293. Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) — Hard — BFS with state
+- [ ] [2290. Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/) — Hard — 0-1 BFS / Dijkstra
 
 ---
 
@@ -178,23 +174,21 @@ Time: O(V + E)
 - Multi-source/multi-destination
 
 **Practice Questions:**
-| # | Problem | Difficulty | Pattern |
-|---|---------|-----------|---------|
-| 41 | [785. Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/) | Medium | Bipartite check |
-| 42 | [886. Possible Bipartition](https://leetcode.com/problems/possible-bipartition/) | Medium | Bipartite + grouping |
-| 43 | [1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) | Hard | Tarjan's Bridge Finding |
-| 44 | [1462. Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/) | Medium | Transitive closure / Floyd-Warshall |
-| 45 | [277. Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/) | Medium | Graph reasoning |
-| 46 | [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/) | Medium | Graph + DFS/Union-Find |
-| 47 | [261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) | Medium | Tree properties |
-| 48 | [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | Medium | Topological peel |
-| 49 | [864. Shortest Path to Get All Keys](https://leetcode.com/problems/shortest-path-to-get-all-keys/) | Hard | State-space BFS |
-| 50 | [127. Word Ladder](https://leetcode.com/problems/word-ladder/) | Hard | BFS + transformation graph |
-| 51 | [126. Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) | Hard | BFS + backtracking |
-| 52 | [332. Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) | Hard | Hierholzer's Algorithm (Eulerian path) |
-| 53 | [753. Cracking the Safe](https://leetcode.com/problems/cracking-the-safe/) | Hard | De Bruijn sequence / Hierholzer's |
-| 54 | [834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/) | Hard | Tree DP + rerooting |
-| 55 | [2246. Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/) | Hard | Tree DP |
+- [ ] [785. Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/) — Medium — Bipartite check
+- [ ] [886. Possible Bipartition](https://leetcode.com/problems/possible-bipartition/) — Medium — Bipartite + grouping
+- [ ] [1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) — Hard — Tarjan's Bridge Finding
+- [ ] [1462. Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/) — Medium — Transitive closure / Floyd-Warshall
+- [ ] [277. Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/) — Medium — Graph reasoning
+- [ ] [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/) — Medium — Graph + DFS/Union-Find
+- [ ] [261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) — Medium — Tree properties
+- [ ] [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) — Medium — Topological peel
+- [ ] [864. Shortest Path to Get All Keys](https://leetcode.com/problems/shortest-path-to-get-all-keys/) — Hard — State-space BFS
+- [ ] [127. Word Ladder](https://leetcode.com/problems/word-ladder/) — Hard — BFS + transformation graph
+- [ ] [126. Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) — Hard — BFS + backtracking
+- [ ] [332. Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) — Hard — Hierholzer's Algorithm (Eulerian path)
+- [ ] [753. Cracking the Safe](https://leetcode.com/problems/cracking-the-safe/) — Hard — De Bruijn sequence / Hierholzer's
+- [ ] [834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/) — Hard — Tree DP + rerooting
+- [ ] [2246. Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/) — Hard — Tree DP
 
 ---
 
@@ -202,26 +196,26 @@ Time: O(V + E)
 
 These are the most frequently asked graph problems in FAANG interviews:
 
-1. **[200. Number of Islands](https://leetcode.com/problems/number-of-islands/)** - Grid DFS/BFS
-2. **[133. Clone Graph](https://leetcode.com/problems/clone-graph/)** - Graph cloning
-3. **[207. Course Schedule](https://leetcode.com/problems/course-schedule/)** - Topological sort / Cycle detection
-4. **[210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)** - Topological sort
-5. **[743. Network Delay Time](https://leetcode.com/problems/network-delay-time/)** - Dijkstra's
-6. **[787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)** - Bellman-Ford
-7. **[684. Redundant Connection](https://leetcode.com/problems/redundant-connection/)** - Union-Find
-8. **[721. Accounts Merge](https://leetcode.com/problems/accounts-merge/)** - Union-Find + mapping
-9. **[127. Word Ladder](https://leetcode.com/problems/word-ladder/)** - BFS shortest path
-10. **[399. Evaluate Division](https://leetcode.com/problems/evaluate-division/)** - Graph DFS/Union-Find
-11. **[417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)** - Multi-source DFS
-12. **[310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)** - Topological leaf peeling
-13. **[261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)** - Tree validation
-14. **[785. Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)** - Bipartite check
-15. **[1192. Critical Connections](https://leetcode.com/problems/critical-connections-in-a-network/)** - Bridges (Tarjan's)
-16. **[1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)** - MST
-17. **[542. 01 Matrix](https://leetcode.com/problems/01-matrix/)** - Multi-source BFS
-18. **[1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)** - BFS shortest path
-19. **[332. Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)** - Eulerian path
-20. **[269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)** - Topological sort
+- [ ] **[200. Number of Islands](https://leetcode.com/problems/number-of-islands/)** - Grid DFS/BFS
+- [ ] **[133. Clone Graph](https://leetcode.com/problems/clone-graph/)** - Graph cloning
+- [ ] **[207. Course Schedule](https://leetcode.com/problems/course-schedule/)** - Topological sort / Cycle detection
+- [ ] **[210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)** - Topological sort
+- [ ] **[743. Network Delay Time](https://leetcode.com/problems/network-delay-time/)** - Dijkstra's
+- [ ] **[787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)** - Bellman-Ford
+- [ ] **[684. Redundant Connection](https://leetcode.com/problems/redundant-connection/)** - Union-Find
+- [ ] **[721. Accounts Merge](https://leetcode.com/problems/accounts-merge/)** - Union-Find + mapping
+- [ ] **[127. Word Ladder](https://leetcode.com/problems/word-ladder/)** - BFS shortest path
+- [ ] **[399. Evaluate Division](https://leetcode.com/problems/evaluate-division/)** - Graph DFS/Union-Find
+- [ ] **[417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)** - Multi-source DFS
+- [ ] **[310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)** - Topological leaf peeling
+- [ ] **[261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)** - Tree validation
+- [ ] **[785. Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)** - Bipartite check
+- [ ] **[1192. Critical Connections](https://leetcode.com/problems/critical-connections-in-a-network/)** - Bridges (Tarjan's)
+- [ ] **[1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)** - MST
+- [ ] **[542. 01 Matrix](https://leetcode.com/problems/01-matrix/)** - Multi-source BFS
+- [ ] **[1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)** - BFS shortest path
+- [ ] **[332. Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)** - Eulerian path
+- [ ] **[269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)** - Topological sort
 
 ---
 

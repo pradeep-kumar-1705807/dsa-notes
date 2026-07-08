@@ -49,3 +49,23 @@ The sliding window technique is used to efficiently compute results on contiguou
 ## General Approach
 - For fixed window: Slide the window by one element at a time, updating the result as you go.
 - For dynamic window: Expand and contract window boundaries using two pointers to maintain the required property.
+
+
+
+Sliding Window (12–15 patterns)
+Fixed vs variable window
+AtMost/Exactly K
+Frequency map windows
+Monotonic window
+Window + deque
+Complement tricks
+Recognition keywords
+Common mistakes
+Two Pointers (10+ patterns)
+Opposite pointers
+Same-direction pointers
+Slow/Fast pointers
+Partitioning
+Cycle detection
+Dutch National Flag
+In-place array manipulation
