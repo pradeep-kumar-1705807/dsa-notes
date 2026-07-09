@@ -1,6 +1,9 @@
 public class FindTheTownJudge {
 
-
+// Core Idea: The town judge is the person who is trusted by everyone else (in-degree = n-1) and
+//  trusts no one (out-degree = 0).
+//  We can use two arrays to keep track of the in-degrees and out-degrees of each person. 
+// Then, we can iterate through the arrays to find the person who satisfies both conditions.
     
     public int findJudge(int n, int[][] trust) {
         int outDegree[] = new int[n+1];

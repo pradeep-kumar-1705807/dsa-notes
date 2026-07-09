@@ -1,7 +1,8 @@
 class NumberOfEnclaves {
 
-// Idea is to start DFS from the boundary 'O's and mark them as 'T'.
-// Then, we can flip all remaining 'O's to 'X's and convert 'T's back to 'O's.
+// Idea is to start DFS from the boundary '1's and mark them as '2'.
+//  Then, we can count all remaining '1's which are enclaves.
+
    
        void dfs(int[][] board, int i,int j) {
         if(i<0 || j<0 || i>=board.length || j>=board[0].length || board[i][j]!=1) {

@@ -1,5 +1,9 @@
 import java.util.*;
 
+//  Concept: BFS
+// Idea is to start BFS from all the '0's and mark the distance of each '1' from the nearest '0'.
+// the distance of each '1' will be the minimum distance from any '0' in the matrix.
+
 
 class Pair {
     int u;
