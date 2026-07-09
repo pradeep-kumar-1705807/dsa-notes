@@ -1,9 +1,9 @@
 class SurroundedRegion {
 
-// Idea is to start DFS from the boundary 'O's and mark them as 'T'.
-// Then, we can flip all remaining 'O's to 'X's and convert 'T's back to 'O's.
+// Idea is to start DFS from the boundary 'O's and mark them as 'T'. Then, we can flip all remaining 'O's to 'X's and convert 'T's back to 'O's.
    
-     void dfs(char[][] board, int i,int j) {
+
+    void dfs(char[][] board, int i,int j) {
         if(i<0 || j<0 || i>=board.length || j>=board[0].length || board[i][j]!='O') {
             
             return ;
@@ -23,27 +23,29 @@ class SurroundedRegion {
     public void solve(char[][] board) {
         int n = board.length;
         int m = board[0].length;
-        for(int i=0; i<n ;i++) {
-            if(board[i][0] == 'O' )
+        for(int i=0; i<m ;i++) {
+            if(board[0][i] == 'O' )
             {
-                dfs(board,i , 0);
+                dfs(board,0 , i);
             }
 
-            if(board[i][n-1] == 'O' )
+            if(board[n-1][i] == 'O' )
             {
-                dfs(board,i , n-1);
+                dfs(board,n-1 , i);
             }
         }
 
-        for(int i=0;i<m;i++){
+        for(int i=0;i<n;i++){
 
-            if(board[0][i] == 'O' )
+            if(board[i][0] == 'O' )
             {
-                dfs(board,0, i);
+                dfs(board,i, 0);
             }
-            if(board[m-1][i] == 'O' )
+
+
+            if(board[i][m-1] == 'O' )
             {
-                dfs(board,m-1, i);
+                dfs(board,i, m-1);
             }
              
         }
@@ -57,12 +59,16 @@ class SurroundedRegion {
                 if(board[i][j] == 'T') {
                     board[i][j] = 'O';
                 }
-
+               
             }
         }
 
 
     }
+     
+
+
+    
     public static void main(String[] args) {
         SurroundedRegion solution = new SurroundedRegion();
         char[][] board = {
