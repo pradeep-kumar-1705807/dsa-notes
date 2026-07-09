@@ -15,7 +15,7 @@
 **Practice:**
 - Implement all 3 representations
 - Convert between representations
-- [LeetCode 997 - Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) (Easy)
+- [Done] [LeetCode 997 - Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) (Easy)
 
 ### 1.2 Graph Traversals
 
@@ -37,8 +37,8 @@ Time: O(V + E)    Space: O(V) for queue
 - [Done] [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) — Medium — DFS/BFS on grid
 - [ ] [133. Clone Graph](https://leetcode.com/problems/clone-graph/) — Medium — Graph traversal + cloning
 - [Done] [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/) — Medium — DFS on grid
-- [ ] [542. 01 Matrix](https://leetcode.com/problems/01-matrix/) — Medium — Multi-source BFS
-- [ ] [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) — Medium — DFS from boundaries
+- [Done] [542. 01 Matrix](https://leetcode.com/problems/01-matrix/) — Medium — Multi-source BFS
+- [Done] [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) — Medium — DFS from boundaries
 - [ ] [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) — Medium — DFS from oceans
 - [ ] [1020. Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/) — Medium — DFS from boundary
 - [ ] [1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) — Medium — BFS shortest path
@@ -196,7 +196,7 @@ Time: O(V + E)
 
 These are the most frequently asked graph problems in FAANG interviews:
 
-- [ ] **[200. Number of Islands](https://leetcode.com/problems/number-of-islands/)** - Grid DFS/BFS
+- [Done] **[200. Number of Islands](https://leetcode.com/problems/number-of-islands/)** - Grid DFS/BFS
 - [ ] **[133. Clone Graph](https://leetcode.com/problems/clone-graph/)** - Graph cloning
 - [ ] **[207. Course Schedule](https://leetcode.com/problems/course-schedule/)** - Topological sort / Cycle detection
 - [ ] **[210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)** - Topological sort
@@ -212,7 +212,7 @@ These are the most frequently asked graph problems in FAANG interviews:
 - [ ] **[785. Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)** - Bipartite check
 - [ ] **[1192. Critical Connections](https://leetcode.com/problems/critical-connections-in-a-network/)** - Bridges (Tarjan's)
 - [ ] **[1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)** - MST
-- [ ] **[542. 01 Matrix](https://leetcode.com/problems/01-matrix/)** - Multi-source BFS
+- [Done] **[542. 01 Matrix](https://leetcode.com/problems/01-matrix/)** - Multi-source BFS
 - [ ] **[1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)** - BFS shortest path
 - [ ] **[332. Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)** - Eulerian path
 - [ ] **[269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)** - Topological sort
