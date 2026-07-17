@@ -42,7 +42,7 @@ Time: O(V + E)    Space: O(V) for queue
 - [Done] [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) — Medium — DFS from oceans
 - [Done] [1020. Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/) — Medium — DFS from boundary
 - [Done] [1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) — Medium — BFS shortest path
-- [ ] [286. Walls and Gates](https://leetcode.com/problems/walls-and-gates/) — Medium — Multi-source BFS
+- [Done] [286. Walls and Gates](https://leetcode.com/problems/walls-and-gates/) — Medium — Multi-source BFS
 - [Done] [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) — Medium — DFS reachability
 
 ---
