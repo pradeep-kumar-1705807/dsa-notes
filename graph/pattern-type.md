@@ -41,9 +41,9 @@ Time: O(V + E)    Space: O(V) for queue
 - [Done] [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) — Medium — DFS from boundaries
 - [Done] [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) — Medium — DFS from oceans
 - [Done] [1020. Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/) — Medium — DFS from boundary
-- [ ] [1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) — Medium — BFS shortest path
+- [Done] [1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) — Medium — BFS shortest path
 - [ ] [286. Walls and Gates](https://leetcode.com/problems/walls-and-gates/) — Medium — Multi-source BFS
-- [ ] [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) — Medium — DFS reachability
+- [Done] [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) — Medium — DFS reachability
 
 ---
 
